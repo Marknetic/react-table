@@ -1,6 +1,4 @@
 node_modules/
-react-table.js
-react-table.css
 *.log
 .idea
 .DS_Store
