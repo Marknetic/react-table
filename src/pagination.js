@@ -1,4 +1,5 @@
 import React from 'react'
+import CreateClass from 'create-react-class'
 import classnames from 'classnames'
 //
 // import _ from './utils'
@@ -7,7 +8,7 @@ const defaultButton = (props) => (
   <button type='button' {...props} className='-btn'>{props.children}</button>
 )
 
-export default React.createClass({
+export default CreateClass({
   getInitialState () {
     return {
       page: this.props.page
